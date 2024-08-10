@@ -1,0 +1,21 @@
+//Anupreeya Bhattacharjee//
+//23070123022//
+#include <iostream>
+using namespace std;
+
+int main() {
+    int i= 50, a,b,c,d;
+    cout<<"Enter the bit position to be set";
+    cin>>a;
+    b=i|(1<<a);
+    
+    cout<<"enter the bit position to reset";
+    cin>>d;
+    c=i&(~(1<<d));
+    
+    cout<<"no."<<b<<endl;
+    cout<<"no."<<c<<endl;
+    
+
+    return 0;
+}
